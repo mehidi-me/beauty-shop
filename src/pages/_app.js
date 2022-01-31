@@ -9,7 +9,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { v1 as uuidv1 } from "uuid";
 
-axios.defaults.baseURL = "http://admin.duause.com/api/v1";
+axios.defaults.baseURL = "https://admin.duause.com/api/v1";
 
 export const CartContext = createContext();
 
